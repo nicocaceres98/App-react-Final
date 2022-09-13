@@ -1,0 +1,47 @@
+.topheader {
+  background-color: #ff6600;
+  box-shadow: 0 3px 5px rgb(98, 98, 98);
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 30px 15px;
+}
+
+.menu a {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
